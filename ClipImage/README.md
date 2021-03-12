@@ -2,7 +2,7 @@
 
 a sample how to clip image.
 
-tested Godot Engine v3.2.3
+tested using Godot Engine v3.2.3.stable
 
 - Control node and its ancestors have a function to clip image displayed in its rect.
     - set 0 to all "Anchor" 's properties (Left, Top, Right, Bottom)  not to change the clipped image size when to change window size.
@@ -13,23 +13,17 @@ tested Godot Engine v3.2.3
         - The image file must be located in the project directory.
     - To change the width and height of the image, set "Expand" on, then change "Size"
 
+Original image  
+<img src="docs/balloon.png" width="33%"/>
 
-<img src="docs/balloon.png" style="width:50%"/>
-
-Original image
-
-
-
+Clipped image  
 <img src="docs/result.png" />
-
-Clipped image
-
 
 (Japanese translation)
 
 イメージのクリップの仕方のサンプル
 
-Godot Engine v3.2.3 で確認しました。
+Godot Engine v3.2.3.stable で確認しました。
 
 - Control ノード と その祖先は、その内部に表示したイメージをクリップ(切り取って表示)する機能があります。
     - "Anchor"のLeft, Top, Right, Bottom に 0 をセットして、ウィンドウサイズの変更に合わせてイメージのサイズが変更されないようにします。
