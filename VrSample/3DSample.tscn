@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://3DSample.gd" type="Script" id=1]
+
+[node name="3DSample" type="Spatial"]
+script = ExtResource( 1 )
+
+[node name="CSGBox" type="CSGBox" parent="."]
+width = 10.0
+height = 0.0814558
+depth = 10.0
+
+[node name="CSGSphere" type="CSGSphere" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.15268, 0 )
+
+[node name="CSGCylinder" type="CSGCylinder" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.924, 2.63201, 2.60948 )
+height = 2.79361
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.976364, 0.216133, 0, -0.216133, 0.976364, -4.76837e-07, 3.61589, 12.6206 )
+fov = 69.9962
+
+[node name="ARVROrigin" type="ARVROrigin" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.23709, 0.66285, 4.61913 )
+
+[node name="ARVRCamera" type="ARVRCamera" parent="ARVROrigin"]
