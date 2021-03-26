@@ -1,0 +1,11 @@
+# Import cache
+.import/
+
+# Binaries
+bin/
+build/
+lib/
+*.apk
+
+# Others
+export_presets.cfg
