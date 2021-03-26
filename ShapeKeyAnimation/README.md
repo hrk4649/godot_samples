@@ -6,11 +6,9 @@ In this project, tried following things.
 - imports gltf file into Godot
 - plays animations in Godot
 
+<a href="./docs/capture.mp4" title="capture">
 <img src="./docs/capture.png" width="513" height="316"/>
-
-<video width="513" height="316" controls>
-    <source src="./docs/capture.mp4" type="video/mp4">
-</video>
+</a>
 
 ## how to export and import a 3D model
 
