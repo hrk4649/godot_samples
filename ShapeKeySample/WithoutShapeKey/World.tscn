@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://GreenHead.tscn" type="PackedScene" id=1]
+
+[node name="World" type="Spatial"]
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.942839, 0.333247, 0, -0.333247, 0.942839, 0.692886, 2.44442, 8.61889 )
+
+[node name="DirectionalLight" type="DirectionalLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.76656, 0.642172, 0, -0.642172, 0.76656, 7.68062, 0, 0 )
+
+[node name="GreenHead" parent="." instance=ExtResource( 1 )]
