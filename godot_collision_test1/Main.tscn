@@ -1,0 +1,66 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://KineBall.gd" type="Script" id=1]
+[ext_resource path="res://Ball.gd" type="Script" id=2]
+
+[sub_resource type="PhysicsMaterial" id=1]
+bounce = 1.5
+
+[sub_resource type="SphereShape" id=2]
+
+[sub_resource type="SpatialMaterial" id=3]
+albedo_color = Color( 1, 1, 0, 1 )
+
+[sub_resource type="PhysicsMaterial" id=4]
+bounce = 1.0
+
+[sub_resource type="SpatialMaterial" id=5]
+albedo_color = Color( 0.25098, 0.996078, 0.0117647, 1 )
+
+[sub_resource type="BoxShape" id=6]
+extents = Vector3( 10, 0.1, 10 )
+
+[sub_resource type="SpatialMaterial" id=7]
+albedo_color = Color( 1, 0, 0, 1 )
+
+[node name="Main" type="Spatial"]
+
+[node name="Ball" type="RigidBody" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8, 0 )
+physics_material_override = SubResource( 1 )
+contacts_reported = 1
+contact_monitor = true
+script = ExtResource( 2 )
+
+[node name="CollisionShape" type="CollisionShape" parent="Ball"]
+shape = SubResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Ball"]
+material = SubResource( 3 )
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 0.873526, 0, 0.486778, 0, 1, 0, -0.486778, 0, 0.873526, 6.70841, 4.47866, 12.2852 )
+
+[node name="Green" type="StaticBody" parent="."]
+physics_material_override = SubResource( 4 )
+
+[node name="CSGBox" type="CSGBox" parent="Green"]
+width = 10.0
+height = 0.1
+depth = 10.0
+material = SubResource( 5 )
+
+[node name="CollisionShape" type="CollisionShape" parent="Green"]
+shape = SubResource( 6 )
+
+[node name="KineBall" type="KinematicBody" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8, 3 )
+script = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="KineBall"]
+shape = SubResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="KineBall"]
+material = SubResource( 7 )
+
+[connection signal="body_entered" from="Ball" to="Ball" method="_on_Ball_body_entered"]
