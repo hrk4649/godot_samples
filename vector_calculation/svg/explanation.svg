@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="explanation.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:zoom="1"
+     inkscape:cx="323.5"
+     inkscape:cy="762"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="-87.269984"
+       y="670.1088"
+       width="221.29174"
+       height="110.12641"
+       id="rect29045" />
+    <rect
+       x="40.518207"
+       y="829.06485"
+       width="281.54959"
+       height="55.063208"
+       id="rect15141" />
+    <rect
+       x="376.09207"
+       y="982.82625"
+       width="176.61782"
+       height="59.218918"
+       id="rect11395" />
+    <rect
+       x="353.23565"
+       y="617.12346"
+       width="219.21389"
+       height="58.179989"
+       id="rect8199" />
+  </defs>
+  <g
+     inkscape:label="レイヤー 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect30037"
+       width="158.88245"
+       height="135.24251"
+       x="3.8483644"
+       y="158.33267"
+       inkscape:export-filename="D:\projects\godot_samples\vector_calculation\svg\explanation.png"
+       inkscape:export-xdpi="51.07"
+       inkscape:export-ydpi="51.07" />
+    <circle
+       style="fill:#00ff00;stroke-width:3;stroke-linecap:round"
+       id="path846-1"
+       cx="116.48293"
+       cy="270.99799"
+       r="5.6367812"
+       inkscape:export-filename="D:\projects\godot_samples\vector_calculation\svg\explanation.png"
+       inkscape:export-xdpi="51.07"
+       inkscape:export-ydpi="51.07" />
+    <circle
+       style="fill:#ff0000;stroke-width:3;stroke-linecap:round"
+       id="path846-1-65"
+       cx="69.056236"
+       cy="204.91161"
+       r="5.6367812"
+       inkscape:export-filename="D:\projects\godot_samples\vector_calculation\svg\explanation.png"
+       inkscape:export-xdpi="51.07"
+       inkscape:export-ydpi="51.07" />
+    <circle
+       style="fill:#ffff00;stroke-width:3;stroke-linecap:round"
+       id="path846-1-6"
+       cx="88.104668"
+       cy="231.73491"
+       r="5.6367812"
+       inkscape:export-filename="D:\projects\godot_samples\vector_calculation\svg\explanation.png"
+       inkscape:export-xdpi="51.07"
+       inkscape:export-ydpi="51.07" />
+    <circle
+       style="fill:#00ffff;stroke-width:3;stroke-linecap:round"
+       id="path846-1-60"
+       cx="107.15308"
+       cy="180.42076"
+       r="5.6367812"
+       inkscape:export-filename="D:\projects\godot_samples\vector_calculation\svg\explanation.png"
+       inkscape:export-xdpi="51.07"
+       inkscape:export-ydpi="51.07" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 2;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 68.850604,204.2144 47.121706,66.60165 v 0"
+       id="path1622-0-2"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="D:\projects\godot_samples\vector_calculation\svg\explanation.png"
+       inkscape:export-xdpi="51.07"
+       inkscape:export-ydpi="51.07" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 88.711361,232.0785 116.6773,271.77548"
+       id="path1622-6"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\projects\godot_samples\vector_calculation\svg\explanation.png"
+       inkscape:export-xdpi="51.07"
+       inkscape:export-ydpi="51.07" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 2;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 77.372349,200.76654 5.137417,9.06762 -6.608639,3.10995"
+       id="path1622-0-2-1-6"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="D:\projects\godot_samples\vector_calculation\svg\explanation.png"
+       inkscape:export-xdpi="51.07"
+       inkscape:export-ydpi="51.07" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 2;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 106.13936,180.94062 69.292488,205.16923"
+       id="path1622-0-2-1-1"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\projects\godot_samples\vector_calculation\svg\explanation.png"
+       inkscape:export-xdpi="51.07"
+       inkscape:export-ydpi="51.07" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 107.34747,180.61513 8.9411,90.18849"
+       id="path1622-6-2-8"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\projects\godot_samples\vector_calculation\svg\explanation.png"
+       inkscape:export-xdpi="51.07"
+       inkscape:export-ydpi="51.07" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.177976px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 87.857393,230.97993 1.679198,8.45064 5.574246,-3.80085 z"
+       id="path1624-8"
+       sodipodi:nodetypes="cccc"
+       inkscape:transform-center-x="-3.9076535"
+       inkscape:transform-center-y="4.3933699"
+       inkscape:export-filename="D:\projects\godot_samples\vector_calculation\svg\explanation.png"
+       inkscape:export-xdpi="51.07"
+       inkscape:export-ydpi="51.07" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.177976px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 106.76,180.34501 -2.1207,8.35079 6.66732,-1.03223 z"
+       id="path1624-8-5"
+       sodipodi:nodetypes="cccc"
+       inkscape:transform-center-x="-1.394233"
+       inkscape:transform-center-y="4.4479749"
+       inkscape:export-filename="D:\projects\godot_samples\vector_calculation\svg\explanation.png"
+       inkscape:export-xdpi="51.07"
+       inkscape:export-ydpi="51.07" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.177976px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 68.855669,204.42246 1.960137,8.38993 5.444366,-3.98466 z"
+       id="path1624-7"
+       sodipodi:nodetypes="cccc"
+       inkscape:transform-center-y="4.3792641"
+       inkscape:transform-center-x="-3.8371335"
+       inkscape:export-filename="D:\projects\godot_samples\vector_calculation\svg\explanation.png"
+       inkscape:export-xdpi="51.07"
+       inkscape:export-ydpi="51.07" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,24.739482,12.094858)"
+       id="text8197"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect8199);fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="D:\projects\godot_samples\vector_calculation\svg\explanation.png"
+       inkscape:export-xdpi="51.07"
+       inkscape:export-ydpi="51.07"><tspan
+         x="353.23633"
+         y="653.61626"
+         id="tspan875">Player</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,24.739482,12.094858)"
+       id="text11393"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect11395);fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="D:\projects\godot_samples\vector_calculation\svg\explanation.png"
+       inkscape:export-xdpi="51.07"
+       inkscape:export-ydpi="51.07"><tspan
+         x="376.0918"
+         y="1019.3194"
+         id="tspan877">Ball</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,5.772546,14.293923)"
+       id="text15139"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect15141);fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="D:\projects\godot_samples\vector_calculation\svg\explanation.png"
+       inkscape:export-xdpi="51.07"
+       inkscape:export-ydpi="51.07"><tspan
+         x="40.517578"
+         y="865.55767"
+         id="tspan879">Ball's vector</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,51.128263,20.616235)"
+       id="text29043"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect29045);fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="D:\projects\godot_samples\vector_calculation\svg\explanation.png"
+       inkscape:export-xdpi="51.07"
+       inkscape:export-ydpi="51.07"><tspan
+         x="-87.269531"
+         y="706.60259"
+         id="tspan881">Target</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,40 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Main.gd" type="Script" id=1]
+
+[sub_resource type="SpatialMaterial" id=1]
+albedo_color = Color( 0, 1, 0, 1 )
+
+[sub_resource type="SpatialMaterial" id=2]
+albedo_color = Color( 0, 1, 1, 1 )
+
+[sub_resource type="SpatialMaterial" id=3]
+albedo_color = Color( 1, 1, 0, 1 )
+
+[sub_resource type="SpatialMaterial" id=4]
+albedo_color = Color( 1, 0, 0, 1 )
+
+[node name="Main" type="Spatial"]
+script = ExtResource( 1 )
+
+[node name="Ball" type="CSGSphere" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.463248, 0, -1.25178 )
+radius = 0.1
+material = SubResource( 1 )
+
+[node name="Player" type="CSGSphere" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.68968, 0, -4.38844 )
+radius = 0.1
+material = SubResource( 2 )
+
+[node name="BallVelocity" type="CSGSphere" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.10616, 0, -2.28727 )
+radius = 0.1
+material = SubResource( 3 )
+
+[node name="Target" type="CSGSphere" parent="."]
+radius = 0.1
+material = SubResource( 4 )
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 0.887598, 0, 0.460618, 0, 1, 0, -0.460618, 0, 0.887598, 1.66034, 1.36697, 1.76731 )
