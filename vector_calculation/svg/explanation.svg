@@ -25,7 +25,7 @@
      showgrid="false"
      inkscape:snap-global="false"
      inkscape:zoom="1"
-     inkscape:cx="323.5"
+     inkscape:cx="275.5"
      inkscape:cy="762"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
@@ -190,7 +190,7 @@
        inkscape:export-ydpi="51.07"><tspan
          x="353.23633"
          y="653.61626"
-         id="tspan875">Player</tspan></text>
+         id="tspan3342">Player</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,24.739482,12.094858)"
@@ -201,7 +201,7 @@
        inkscape:export-ydpi="51.07"><tspan
          x="376.0918"
          y="1019.3194"
-         id="tspan877">Ball</tspan></text>
+         id="tspan3344">Ball</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,5.772546,14.293923)"
@@ -212,7 +212,7 @@
        inkscape:export-ydpi="51.07"><tspan
          x="40.517578"
          y="865.55767"
-         id="tspan879">Ball's vector</tspan></text>
+         id="tspan3346">Ball's velocity</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,51.128263,20.616235)"
@@ -223,6 +223,6 @@
        inkscape:export-ydpi="51.07"><tspan
          x="-87.269531"
          y="706.60259"
-         id="tspan881">Target</tspan></text>
+         id="tspan3348">Target</tspan></text>
   </g>
 </svg>

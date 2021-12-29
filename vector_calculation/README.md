@@ -13,7 +13,7 @@ This sample is for understanding following things.
 
 This sample calculates a vector that goes from ```Ball``` to ```Target```.
 
-- Target is located on the line that ```Ball``` and ```Ball's vector``` make.
+- Target is located on the line that ```Ball``` and ```Ball's velocity``` make.
 - The angle which ```Player```, ```Target``` and Ball makes is 90 degrees.
 
 
