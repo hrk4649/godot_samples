@@ -4,9 +4,7 @@
 
 - use joy pad's analog sticks to move and rotate player object.
 
-![movie](./images/title.png)
-
-![movie](./images/controller_3d.mp4)
+![movie](./images/controller_3d.gif)
 
 ## How to use analog sticks
 
