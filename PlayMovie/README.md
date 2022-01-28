@@ -8,7 +8,7 @@ play movie using VideoPlayer.
 
 A video file must be converted to .webm or .ogv. if the file is not these format.
 When to use ffmpeg to convert .mp4 file to .webm, type ```ffmpeg -i input.mp4 output.webm```.
-I could not convert .mp4 to .ogv correctly but it can be played on Godot.
+I could not convert .mp4 to .ogv correctly but the .ogv file can play on Godot.
 
 ## Environment
 
