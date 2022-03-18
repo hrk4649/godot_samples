@@ -68,7 +68,7 @@ AKEYCODE_DPAD_CENTER     = 23,
 # How to configure "PeriodCentered" key in Input Map of Project Settings
 
 When adding a key into an action, for example "ui_accept", in Input Map of Project Settings of Godot, you must type the key that you want to add.   However typing "PeroidCentered" seems impossible on Windows.
-Since this, Adding an alternative key, for example period ".", and changing scancode in "project.godot" file directly by text editor are needed as a work-around.
+Since this, Adding an alternative key, for example period ".", and changing scancode in "project.godot" file directly using text editor are needed as a work-around.
 
 type an alternative key. typed period "." in this case.
 
