@@ -1,0 +1,14 @@
+.gradle/
+assetPacks/
+assets/
+build/
+gradle/
+libs/
+res/
+src/
+build.gradle
+config.gradle
+gradle.properties
+gradlew
+gradlew.bat
+settings.gradle
