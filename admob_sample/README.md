@@ -11,6 +11,8 @@ You can see folloging types of advertisement in this sample;
 - reward
     ![reward](./docs/reward.png)
 
+There is another way to show advertisement ```rewarded-interstitial ``` but it is not dealt with here.
+
 Running this app on Android Emulator and watching Logcat on Android Studio is good to see how the plugin works.
 
 ## Installation
@@ -32,6 +34,24 @@ Following plugins are needed to show advertisement of [Admob](https://admob.goog
                 - Name: ```MobileAds```
                 - Path: ```res://addons/admob/src/singletons/MobileAds.gd```
 
+## How to use the plugin
+
+Basically, Calling ```MobileAds.load_XXX()``` will start displaying an advertisement view component. 
+
+Signals emit when relating events happend.
+
+- An ad content is loaded.
+- An ad content is failed to load.
+- An ad content is failed to show.
+- An ad content is opened.
+- An ad content is clicked.
+- An ad content is closed.
+- When recoding impression.
+- and so on...
+
+If a user watches an advertisement for at least several seconds,
+signal ```user_earned_rewarded``` is emitted and a user can earn a reward which consists of an unit and an amount.
+
 ## Environment
 
 - Godot 3.5.1
@@ -40,4 +60,5 @@ Following plugins are needed to show advertisement of [Admob](https://admob.goog
 ## Reference
 
 - [MobileAds API(methods and signals)](https://github.com/Poing-Studios/godot-admob-editor#api)
-
+- [Mobile Ads SDK（Android）](https://developers.google.com/admob/android/quick-start)
+- [MobileAds](https://firebase.google.com/docs/reference/android/com/google/android/gms/ads/MobileAds)
