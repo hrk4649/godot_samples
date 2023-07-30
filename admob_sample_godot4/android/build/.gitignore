@@ -1,0 +1,15 @@
+# AndroidManifest.xml
+assetPacks/
+assets/
+build/
+build.gradle
+config.gradle
+gradle/
+gradle.properties
+gradlew*
+gradlew.bat
+libs/
+res/
+settings.gradle
+src/
+.gradle/

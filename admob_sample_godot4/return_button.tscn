@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://return_button.gd" type="Script" id=1]
+
+[node name="Button" type="Button"]
+offset_right = 12.0
+offset_bottom = 41.0
+text = "RETURN"
+script = ExtResource( 1 )
+
+[connection signal="pressed" from="." to="." method="_on_Button_pressed"]
