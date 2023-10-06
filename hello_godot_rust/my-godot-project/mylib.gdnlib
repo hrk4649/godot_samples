@@ -1,0 +1,20 @@
+[general]
+
+singleton=false
+load_once=true
+symbol_prefix="godot_"
+reloadable=true
+
+[entry]
+
+Android.arm64-v8a="res://libmy_gdnative_lib_aarch64_debug.so"
+Android.x86="res://libmy_gdnative_lib_i686_debug.so"
+Android.x86_64="res://libmy_gdnative_lib_x86_64_debug.so"
+Windows.64="res://my_gdnative_lib.dll"
+
+[dependencies]
+
+Android.arm64-v8a=[  ]
+Android.x86=[  ]
+Android.x86_64=[  ]
+Windows.64=[  ]
