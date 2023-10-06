@@ -145,7 +145,11 @@ impl HelloWorld {
   - In the Inspector of ```Node.gdns```
     - set Library to ```mylib.gdnlib```
 - play main.tscn
+  - You can see a line like following in Output:
 
+```
+*** Hello world from node Node:[Node:1266]! ***
+```
 
 ## (Exporting to) Android
 
@@ -258,5 +262,9 @@ cp target/x86_64-linux-android/debug/libmy_gdnative_lib.so \
 - Exporting in Godot
   - In my-godot-project, open ```mylib.gdnlib```, set libraries as each Platform's Dynamic Library.
     - I guess that *_debug.so is for debug build and *_release.so is for release build.
+  - When the exported app runs on the device, for example from [one-click deploy](https://docs.godotengine.org/en/stable/tutorials/export/one-click_deploy.html), you can see a line like following in Logcat in Android Studio:
 
+```
+*** Hello world from node Node:[Node:1266]! ***
+```
 
